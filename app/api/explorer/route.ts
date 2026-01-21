@@ -19,21 +19,28 @@ export async function GET(request: NextRequest) {
     if (search) backendUrl.searchParams.set('search', search)
     if (state) backendUrl.searchParams.set('state', state)
 
-    const response = await fetch(backendUrl.toString())
+    const url = backendUrl.toString()
+    console.log(`[API Route /explorer] Fetching from: ${url}`)
+    const response = await fetch(url)
+    
+    console.log(`[API Route /explorer] Response status: ${response.status}`)
     
     if (!response.ok) {
+      const errorText = await response.text()
+      console.error(`[API Route /explorer] Backend error: ${errorText}`)
       return NextResponse.json(
-        { error: `Backend error: ${response.status}` },
+        { error: `Backend error: ${response.status}`, details: errorText },
         { status: response.status }
       )
     }
 
     const data = await response.json()
+    console.log(`[API Route /explorer] Data received with ${data?.length || 0} items`)
     return NextResponse.json(data)
   } catch (error) {
-    console.error('API route error:', error)
+    console.error('[API Route /explorer] Error:', error)
     return NextResponse.json(
-      { error: 'Failed to fetch explorer data' },
+      { error: 'Failed to fetch explorer data', details: String(error) },
       { status: 500 }
     )
   }

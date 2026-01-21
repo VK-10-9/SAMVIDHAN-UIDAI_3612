@@ -422,19 +422,35 @@ def get_explorer_enrollment(
 
 
 @app.get("/api/explorer/states")
-def get_explorer_states():
+async def get_explorer_states():
     """Get a distinct list of states from the enrollment data."""
     try:
         # This will leverage the index built by other functions
         states = get_available_states()
         if not states:
-            # If index is not built, build it by scanning
-            get_state_distribution(limit=50) # This will populate the index
-            states = get_available_states()
+            # If no states found, try to build index by scanning files
+            try:
+                logger.info("No states found in index, attempting to build from data...")
+                distribution = await asyncio.to_thread(get_state_distribution, 50)
+                states = get_available_states()
+            except Exception as index_error:
+                logger.warning(f"Failed to build index from CSV: {index_error}")
+                # Fallback: return mock states
+                states = [
+                    "Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", 
+                    "Chhattisgarh", "Goa", "Gujarat", "Haryana", "Himachal Pradesh",
+                    "Jharkhand", "Karnataka", "Kerala", "Madhya Pradesh",
+                    "Maharashtra", "Manipur", "Meghalaya", "Mizoram", "Nagaland",
+                    "Odisha", "Punjab", "Rajasthan", "Sikkim", "Tamil Nadu",
+                    "Telangana", "Tripura", "Uttar Pradesh", "Uttarakhand",
+                    "West Bengal", "Delhi", "Jammu and Kashmir", "Ladakh"
+                ]
+                logger.info(f"Using fallback mock states: {len(states)} states")
+        
         return states
     except Exception as e:
         logger.error(f"Error in get_explorer_states: {e}", exc_info=True)
-        raise HTTPException(status_code=500, detail=str(e))
+        raise HTTPException(status_code=500, detail=f"Failed to get states: {str(e)}")
 
 
 @app.get("/api/aggregated/enrollment-timeline")
