@@ -238,9 +238,16 @@ SAMVIDHAN implements privacy-by-design:
 
 ## 👥 Team
 
-| Name | Role |
-|------|------|
-| [Your Name] | Full Stack Developer |
+### **Team Name:** SAMVIDHAN Development Team
+
+**Project Creator & Lead Developer:**
+- **Vishwanath Koliwad** (@VK-10-9)
+  - [GitHub](https://github.com/VK-10-9) · [LinkedIn](https://www.linkedin.com/in/vishwanath-koliwad)
+
+**Core Contributors:**
+- **Raheel Hosmani** - [GitHub](https://github.com/raheelhosmani) · [LinkedIn](https://www.linkedin.com/in/raheel-hosmani)
+- **Bhumika Dalabhanjan** - [GitHub](https://github.com/bhumika-d) · [LinkedIn](https://www.linkedin.com/in/bhumika-dalabhanjan)
+- **Disha Raikar** - [GitHub](https://github.com/disha-raikar) · [LinkedIn](https://www.linkedin.com/in/disha-raikar)
 
 ---
 
