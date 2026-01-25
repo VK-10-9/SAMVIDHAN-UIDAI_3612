@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     { name: "UIDAI", url: "https://uidai.gov.in" },
     { name: "Government of India" }
   ],
-  creator: "SAMVIDHAN Development Team",
+  creator: "Vidyut Team",
   publisher: "Government of India",
   formatDetection: {
     email: false,
