@@ -335,7 +335,9 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 ## 👥 Team & Contributors
 
 ### Project Team
-- **[Raheel Hosmani](https://github.com/Raheel-Techz-Life)** - Full Stack Developer & Project Lead
+- **[Vishwanath Koliwad](https://github.com/VK-10-9)** - Project Creator & Lead Developer
+  - LinkedIn: [Vishwanath Koliwad](https://www.linkedin.com/in/vishwanath-koliwad/)
+- **[Raheel Hosmani](https://github.com/Raheel-Techz-Life)** - Full Stack Developer & Technical Lead
   - LinkedIn: [Raheel Hosmani](https://www.linkedin.com/in/raheel-hosmani-78ab92315/)
 - **[Bhumika Dalabhanjan](https://github.com/bhumika0115)** - Frontend Developer & UI/UX Specialist
   - LinkedIn: [Bhumika Dalabhanjan](https://www.linkedin.com/in/bhumika-dalabhanjan-047bbb361/)

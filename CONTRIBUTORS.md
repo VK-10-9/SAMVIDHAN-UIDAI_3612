@@ -8,19 +8,25 @@ SAMVIDHAN UIDAI is built by a talented team of developers and engineers:
 
 ### 🌟 Team Members
 
-#### 1. Raheel Hosmani
+#### 1. Vishwanath Koliwad
+- **GitHub:** [@VK-10-9](https://github.com/VK-10-9)
+- **LinkedIn:** [Vishwanath Koliwad](https://www.linkedin.com/in/vishwanath-koliwad/)
+- **Role:** Project Creator & Lead Developer
+- **Contributions:** Overall project vision, architecture design, platform development
+
+#### 2. Raheel Hosmani
 - **GitHub:** [@Raheel-Techz-Life](https://github.com/Raheel-Techz-Life)
 - **LinkedIn:** [Raheel Hosmani](https://www.linkedin.com/in/raheel-hosmani-78ab92315/)
-- **Role:** Full Stack Developer | Project Lead
+- **Role:** Full Stack Developer | Technical Lead
 - **Contributions:** Core architecture, backend development, API design
 
-#### 2. Bhumika Dalabhanjan
+#### 3. Bhumika Dalabhanjan
 - **GitHub:** [@bhumika0115](https://github.com/bhumika0115)
 - **LinkedIn:** [Bhumika Dalabhanjan](https://www.linkedin.com/in/bhumika-dalabhanjan-047bbb361/)
 - **Role:** Frontend Developer | UI/UX Specialist
 - **Contributions:** Dashboard design, React components, user interface
 
-#### 3. Disha Raikar
+#### 4. Disha Raikar
 - **GitHub:** [@DishaRaikar15](https://github.com/DishaRaikar15)
 - **LinkedIn:** [Disha Raikar](https://www.linkedin.com/in/disha-raikar-4b153335a/)
 - **Role:** Data Engineer | Backend Developer
