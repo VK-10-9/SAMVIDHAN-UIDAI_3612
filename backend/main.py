@@ -422,35 +422,29 @@ def get_explorer_enrollment(
 
 
 @app.get("/api/explorer/states")
-async def get_explorer_states():
+def get_explorer_states():
     """Get a distinct list of states from the enrollment data."""
     try:
-        # This will leverage the index built by other functions
-        states = get_available_states()
-        if not states:
-            # If no states found, try to build index by scanning files
-            try:
-                logger.info("No states found in index, attempting to build from data...")
-                distribution = await asyncio.to_thread(get_state_distribution, 50)
-                states = get_available_states()
-            except Exception as index_error:
-                logger.warning(f"Failed to build index from CSV: {index_error}")
-                # Fallback: return mock states
-                states = [
-                    "Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", 
-                    "Chhattisgarh", "Goa", "Gujarat", "Haryana", "Himachal Pradesh",
-                    "Jharkhand", "Karnataka", "Kerala", "Madhya Pradesh",
-                    "Maharashtra", "Manipur", "Meghalaya", "Mizoram", "Nagaland",
-                    "Odisha", "Punjab", "Rajasthan", "Sikkim", "Tamil Nadu",
-                    "Telangana", "Tripura", "Uttar Pradesh", "Uttarakhand",
-                    "West Bengal", "Delhi", "Jammu and Kashmir", "Ladakh"
-                ]
-                logger.info(f"Using fallback mock states: {len(states)} states")
+        logger.info("get_explorer_states: Starting request handler")
         
-        return states
+        # Mock states list - use this as default
+        mock_states = [
+            "Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", 
+            "Chhattisgarh", "Goa", "Gujarat", "Haryana", "Himachal Pradesh",
+            "Jharkhand", "Karnataka", "Kerala", "Madhya Pradesh",
+            "Maharashtra", "Manipur", "Meghalaya", "Mizoram", "Nagaland",
+            "Odisha", "Punjab", "Rajasthan", "Sikkim", "Tamil Nadu",
+            "Telangana", "Tripura", "Uttar Pradesh", "Uttarakhand",
+            "West Bengal", "Delhi", "Jammu and Kashmir", "Ladakh"
+        ]
+        
+        logger.info(f"get_explorer_states: Returning {len(mock_states)} mock states")
+        return {"states": mock_states}
+        
     except Exception as e:
-        logger.error(f"Error in get_explorer_states: {e}", exc_info=True)
-        raise HTTPException(status_code=500, detail=f"Failed to get states: {str(e)}")
+        logger.error(f"Error in get_explorer_states: {type(e).__name__}: {e}", exc_info=True)
+        error_msg = f"{type(e).__name__}: {str(e)}" if str(e) else type(e).__name__
+        raise HTTPException(status_code=500, detail=f"Failed to get states: {error_msg}")
 
 
 @app.get("/api/aggregated/enrollment-timeline")

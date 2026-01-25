@@ -82,11 +82,18 @@ export async function getExplorerEnrollment(params: {
 export async function getExplorerStates() {
   try {
     const url = `/api/explorer/states`
+    console.log(`Making API call to: ${url}`)
     const res = await fetch(url)
+    console.log('API response status:', res.status, res.statusText)
     if (!res.ok) {
+      const errorText = await res.text()
+      console.error('API error response:', errorText)
       throw new Error(`Failed to fetch states: ${res.status} ${res.statusText}`)
     }
-    return res.json()
+    const data = await res.json()
+    console.log('States data received:', data)
+    // Handle both response formats: array or object with states property
+    return Array.isArray(data) ? data : data.states || []
   } catch (error) {
     console.error('Fetch error in getExplorerStates:', error)
     throw error
