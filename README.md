@@ -1,363 +1,259 @@
-# SAMVIDHAN UIDAI - AI-Powered Government Analytics Platform
+# 🛡️ SAMVIDHAN: Aadhaar Intelligence Platform
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
-![Status](https://img.shields.io/badge/status-Production%20Ready-green)
-![License](https://img.shields.io/badge/license-MIT-blue)
-![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python)
-![Node.js](https://img.shields.io/badge/Node.js-18+-green?logo=node.js)
+> **A comprehensive analytics and fraud detection platform for India's Aadhaar identity system**
 
-> **Enterprise-Grade Analytics Platform** combining 6 AI frameworks for government data intelligence, citizen privacy, and policy optimization.
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.104-009688?style=flat-square&logo=fastapi)](https://fastapi.tiangolo.com/)
+[![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js)](https://nextjs.org/)
+[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python)](https://python.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=flat-square&logo=typescript)](https://typescriptlang.org/)
 
 ---
 
-## 🎯 Quick Overview
+## 🎯 Problem Statement
 
-**SAMVIDHAN UIDAI** is a production-ready platform combining:
-- **Real-time data exploration** with interactive visualizations
-- **Policy analytics** for government decision-making
-- **Anomaly detection** for data quality assurance
-- **Cross-state analysis** for comparative insights
-- **Secure citizen data** handling with differential privacy
+India's Aadhaar system serves **1.4 billion+ citizens**, making it critical to:
+- Detect fraudulent enrollments and identity theft
+- Ensure data integrity across distributed systems
+- Enable privacy-preserving analytics for policy decisions
+- Track population mobility for resource optimization
 
-### Problem We Solve
-- 1.4B+ citizen records need intelligent analysis
-- Fraud detection in identity systems
-- Privacy-preserving government analytics
-- Real-time policy impact tracking
-- Cross-state data coordination
+**SAMVIDHAN** addresses these challenges with 6 intelligent frameworks.
 
 ---
 
 ## ✨ Key Features
 
 ### 🔐 Six Intelligence Frameworks
-- **ADIF** - Data Integrity (99%+ duplicate detection)
-- **IRF** - Identity Resilience (biometric verification)
-- **AFIF** - Forensic Intelligence (fraud detection)
-- **PROF** - Resource Optimization (migration forecasting)
-- **AMF** - Mobility Framework (12-component system)
-- **PPAF** - Privacy-Preserving (differential privacy)
 
-### 📊 Dashboard Ecosystem
-- 6 specialized dashboards for different user roles
-- Overview, Data Explorer, State Analytics, Policy, Anomalies, Mobility
-- Real-time data visualization and interactive filters
-- Advanced export capabilities (CSV, Excel, JSON, PDF)
+| Framework | Purpose | Key Capabilities |
+|-----------|---------|------------------|
+| **ADIF** | Data Integrity | Normalization, duplicate detection, multi-factor verification |
+| **IRF** | Identity Resilience | Biometric aging, escalation management, fail-safe protocols |
+| **AFIF** | Forensic Intelligence | Hub detection, fraud networks, risk alerting |
+| **PROF** | Resource Optimization | Migration pressure index, demand forecasting |
+| **AMF** | Mobility Framework | 12-component mobility tracking, geofencing |
+| **PPAF** | Privacy-Preserving | Differential privacy, federated analytics, role-based access |
 
-### 🔒 Security & Privacy
-- Differential privacy algorithms for safe analytics
-- Role-based access control (5 tiers)
-- Audit logging and compliance tracking
-- Federated analytics across states
+### 📊 Dashboard Features
+- **National Overview** - Real-time enrollment statistics
+- **State Analytics** - State-wise breakdown with coverage gaps
+- **Anomaly Detection** - AI-powered fraud detection
+- **Data Explorer** - Interactive data table with filters
+- **Mobility Analysis** - Population movement patterns
+- **Policy Recommendations** - Data-driven insights
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+- **Node.js** 18+ 
+- **Python** 3.11+
+- **npm** or **pnpm**
+
+### 1️⃣ Clone & Install
+
+```bash
+git clone https://github.com/YOUR_USERNAME/samvidhan.git
+cd samvidhan
+
+# Install frontend dependencies
+npm install
+
+# Install backend dependencies
+pip install -r backend/requirements.txt
+```
+
+### 2️⃣ Run the Application
+
+**Terminal 1 - Backend:**
+```bash
+cd backend
+python main.py
+# API running at http://localhost:8000
+```
+
+**Terminal 2 - Frontend:**
+```bash
+npm run dev
+# Dashboard at http://localhost:3000
+```
+
+### 3️⃣ Explore
+- 📊 **Dashboard**: http://localhost:3000
+- 📚 **API Docs**: http://localhost:8000/docs
+- 🔍 **API Endpoints**: http://localhost:8000/redoc
 
 ---
 
 ## 🏗️ Architecture
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                    SAMVIDHAN UIDAI                          │
-├─────────────────────────────────────────────────────────────┤
-│  Frontend                  Backend                API Layer  │
-│  ┌──────────────┐         ┌──────────────┐                 │
-│  │ Next.js 16   │──HTTP──│ FastAPI      │                 │
-│  │ React 19     │ REST   │ Python 3.11  │                 │
-│  │ TypeScript   │        │ Async/Await  │                 │
-│  │ Tailwind CSS │        │ SQLAlchemy   │                 │
-│  └──────────────┘        └──────────────┘                 │
-│                                 │                          │
-│                                 ▼                          │
-│                  ┌──────────────────────────┐              │
-│                  │  6 Intelligence Systems   │              │
-│                  │  (ADIF, IRF, AFIF, etc)  │              │
-│                  └──────────────────────────┘              │
-│                                 │                          │
-│                                 ▼                          │
-│              ┌─────────────────────────────┐               │
-│              │ CSV Datastore + Caching     │               │
-│              │ (Optimized with Indexes)    │               │
-│              └─────────────────────────────┘               │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────────┐
+│                        SAMVIDHAN Platform                        │
+├─────────────────────────────────────────────────────────────────┤
+│  ┌──────────────────┐          ┌──────────────────────────────┐ │
+│  │   Next.js 16     │          │      FastAPI Backend         │ │
+│  │   Dashboard      │◄────────►│      (40+ Endpoints)         │ │
+│  │   (React 19)     │   REST   │                              │ │
+│  └──────────────────┘          └──────────────────────────────┘ │
+│                                           │                      │
+│                                           ▼                      │
+│  ┌──────────────────────────────────────────────────────────────┐│
+│  │                  6 Intelligence Frameworks                    ││
+│  │  ┌─────┐ ┌─────┐ ┌─────┐ ┌─────┐ ┌─────┐ ┌─────┐            ││
+│  │  │ADIF │ │ IRF │ │AFIF │ │PROF │ │ AMF │ │PPAF │            ││
+│  │  └─────┘ └─────┘ └─────┘ └─────┘ └─────┘ └─────┘            ││
+│  └──────────────────────────────────────────────────────────────┘│
+│                                           │                      │
+│                                           ▼                      │
+│  ┌──────────────────────────────────────────────────────────────┐│
+│  │              CSV Datastore (Optimized with Caching)          ││
+│  │         Enrollment | Demographic | Biometric Data            ││
+│  └──────────────────────────────────────────────────────────────┘│
+└─────────────────────────────────────────────────────────────────┘
 ```
-
----
-
-## 🚀 Quick Start (5 minutes)
-
-### Prerequisites
-```bash
-Node.js 18+  |  Python 3.11+  |  npm/pnpm  |  pip
-```
-
-### Installation
-```bash
-# Clone repository
-git clone https://github.com/VK-10-9/SAMVIDHAN-UIDAI_3612.git
-cd SAMVIDHAN-UIDAI_3612
-
-# Install dependencies
-npm install
-cd backend && pip install -r requirements.txt && cd ..
-```
-
-### Start Services
-```bash
-# Terminal 1: Backend
-cd backend
-python main.py
-
-# Terminal 2: Frontend
-npm run dev
-```
-
-### Access
-- 🎨 **Dashboard** → http://localhost:3000
-- 📚 **API Docs** → http://localhost:8000/docs
-- 🔗 **ReDoc** → http://localhost:8000/redoc
 
 ---
 
 ## 📁 Project Structure
 
 ```
-SAMVIDHAN-UIDAI_3612/
+samvidhan/
+├── app/                    # Next.js pages
+│   ├── page.tsx           # Landing page
+│   ├── overview/          # National dashboard
+│   ├── data-explorer/     # Data table view
+│   ├── mobility/          # Mobility analysis
+│   └── ...
 │
-├── 📚 DOCUMENTATION
-│   ├── README.md (you are here)
-│   ├── DOCUMENTATION_INDEX.md (navigation hub)
-│   ├── GETTING_STARTED.md (quick start)
-│   ├── DASHBOARD_GUIDE.md (features)
-│   ├── CODEBOOK.ipynb (API examples)
-│   ├── Framework_Analysis.ipynb (technical)
-│   └── PROJECT_EVALUATION.md (assessment)
+├── backend/               # FastAPI server
+│   ├── main.py           # 40+ API endpoints
+│   ├── csv_db.py         # Optimized CSV datastore
+│   ├── frameworks/       # 6 intelligence frameworks
+│   ├── utils/            # Helper functions
+│   ├── analytics/        # Analysis layer
+│   └── security/         # Security & audit
 │
-├── 🎨 FRONTEND (Next.js + React)
-│   ├── app/ (pages and routes)
-│   ├── components/ (UI components)
-│   ├── hooks/ (custom hooks)
-│   ├── lib/ (utilities)
-│   └── public/ (static assets)
+├── components/            # React components
+│   ├── dashboard/        # Dashboard components
+│   └── ui/               # Shadcn UI components
 │
-├── 🔧 BACKEND (FastAPI + Python)
-│   ├── main.py (40+ API endpoints)
-│   ├── frameworks/ (6 intelligence systems)
-│   ├── services/ (business logic)
-│   ├── models/ (data models)
-│   └── utils/ (helpers)
+├── dataset/              # Sample data
+│   ├── clean/            # Processed CSVs
+│   └── raw/              # Raw data
 │
-├── 📊 DATA
-│   └── dataset/ (sample data)
-│
-└── 🗄️ DATABASE
-    └── scripts/ (initialization)
+├── hooks/                # Custom React hooks
+├── lib/                  # Utility functions
+└── public/               # Static assets
 ```
 
 ---
 
 ## 🔌 API Endpoints
 
-### Core Statistics (15+ endpoints)
-```
-GET  /api/national-overview          National enrollment stats
-GET  /api/analytics/states/{state}   State-specific metrics
-GET  /api/enrollment-timeline        Trend analysis
-GET  /api/anomalies/list             Detected anomalies
-```
+### Core Endpoints
 
-### Intelligence Frameworks (25+ endpoints)
-```
-ADIF  → /api/signals/duplicates           Duplicate detection
-IRF   → /api/irf/multi-factor            Identity verification
-AFIF  → /api/afif/hub-analysis           Fraud detection
-PROF  → /api/prof/mpi                    Migration forecasting
-AMF   → /api/amf/mobility-tier           Mobility classification
-PPAF  → /api/ppaf/differential-privacy   Privacy-safe queries
-```
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/api/national-overview` | GET | National enrollment statistics |
+| `/api/mobility/state-distribution` | GET | State-wise breakdown |
+| `/api/enrollment-timeline` | GET | Enrollment trends over time |
+| `/api/anomalies/list` | GET | Detected anomalies |
 
-📖 **[Full API Documentation](http://localhost:8000/docs)** available after starting
+### Framework Endpoints
 
----
+| Framework | Endpoint | Description |
+|-----------|----------|-------------|
+| **ADIF** | `/api/signals/duplicates` | Detect duplicate records |
+| **IRF** | `/api/irf/multi-factor` | Multi-factor verification |
+| **AFIF** | `/api/afif/hub-analysis` | Fraud hub detection |
+| **PROF** | `/api/prof/mpi` | Migration pressure index |
+| **AMF** | `/api/amf/mobility-tier` | Mobility classification |
+| **PPAF** | `/api/ppaf/differential-privacy` | Privacy-preserving queries |
 
-## 💻 Tech Stack
-
-### Frontend
-- **Framework:** Next.js 16+ (React 19)
-- **Language:** TypeScript
-- **Styling:** Tailwind CSS
-- **UI Components:** Shadcn/UI
-- **Charts:** Recharts, Plotly
-- **Maps:** Leaflet
-
-### Backend
-- **Framework:** FastAPI 0.104+
-- **Server:** Uvicorn
-- **Language:** Python 3.11+
-- **ORM:** SQLAlchemy
-- **Validation:** Pydantic
-- **Processing:** Pandas, NumPy
-
-### Infrastructure
-- **Version Control:** Git
-- **Package Manager:** npm/pnpm
-- **Data Store:** CSV with TTL caching
-- **Deployment:** Docker ready
+📖 **Full API Documentation**: http://localhost:8000/docs
 
 ---
 
-## 🔒 Security & Privacy
+## 🛠️ Tech Stack
 
-SAMVIDHAN implements security-by-design:
-
-### Privacy Features
-- ✅ **Differential Privacy** - Laplace/Gaussian noise mechanisms
-- ✅ **Federated Analytics** - Distributed computation
-- ✅ **Identity Hashing** - Irreversible transformations
-- ✅ **Role-Based Access Control** - 5-tier system
-
-### Security Features
-- ✅ **Audit Logging** - Complete activity trails
-- ✅ **Data Encryption** - At-rest and in-transit
-- ✅ **Input Validation** - Pydantic models
-- ✅ **Rate Limiting** - API protection
+| Layer | Technology |
+|-------|------------|
+| **Frontend** | Next.js 16, React 19, TypeScript, Tailwind CSS, Shadcn/UI, Recharts |
+| **Backend** | FastAPI, Uvicorn, Python 3.11+ |
+| **Data** | CSV with TTL-based caching, Index acceleration |
 
 ---
 
-## 📚 Learning Resources
+## 🔒 Privacy & Security
 
-| Resource | Purpose | Time |
-|----------|---------|------|
-| [GETTING_STARTED.md](GETTING_STARTED.md) | Quick start guide | 5 min |
-| [DASHBOARD_GUIDE.md](DASHBOARD_GUIDE.md) | Feature walkthrough | 30 min |
-| [CODEBOOK.ipynb](CODEBOOK.ipynb) | API examples | 45 min |
-| [Framework_Analysis.ipynb](Framework_Analysis.ipynb) | Technical details | 60 min |
-| [DOCUMENTATION_INDEX.md](DOCUMENTATION_INDEX.md) | Navigation hub | 10 min |
-| [PROJECT_EVALUATION.md](PROJECT_EVALUATION.md) | Project summary | 15 min |
+SAMVIDHAN implements privacy-by-design:
 
----
-
-## 📊 Performance Metrics
-
-### Benchmark Results
-- **API Response Time:** <500ms (99th percentile)
-- **Dashboard Load Time:** <2 seconds
-- **Data Export:** <5 seconds (1M records)
-- **Anomaly Detection:** Real-time (sub-second)
-- **Concurrent Users:** Tested up to 10,000
-
-### Scalability
-- Handles 1B+ records with caching
-- Horizontal scaling ready
-- Database query optimization
-- CDN-compatible static assets
+- **Differential Privacy** - Laplace/Gaussian noise mechanisms
+- **Federated Analytics** - No central data collection
+- **Role-Based Access** - 5-tier access control
+- **Identity Hashing** - SHA256 irreversible hashing
+- **Audit Logging** - Complete activity trails
 
 ---
 
-## 🎓 Use Cases
+## 📊 Frameworks Deep Dive
 
-### For Government Agencies
-- Real-time enrollment monitoring
-- Policy impact analysis
-- Fraud detection and prevention
-- Inter-state coordination
-- Citizen service optimization
+### ADIF - Aadhaar Data Integrity Framework
+- Automatic data normalization
+- Duplicate detection with confidence scores
+- Multi-factor verification (age, biometric consistency)
 
-### For Data Scientists
-- Machine learning datasets
-- Feature engineering sandbox
-- Model evaluation framework
-- Privacy-preserving experimentation
+### IRF - Identity Resilience Framework
+- Biometric aging assessment
+- Escalation management for anomalies
+- Fail-safe response protocols
 
-### For Policy Makers
-- Evidence-based decision making
-- Impact assessment tools
-- Trend forecasting
-- Performance benchmarking
+### AFIF - Aadhaar Forensic Intelligence Framework
+- Hub/network detection
+- Fraud pattern analysis
+- Risk alerting with geospatial analysis
 
----
+### PROF - Public Resource Optimization Framework
+- Migration Pressure Index (MPI)
+- Demand forecasting by region
+- Outcome feedback loops
 
-## 🤝 Contributing
+### AMF - Aadhaar Mobility Framework
+12-component system including:
+- Mobility tier classification
+- Cross-state verification
+- Seasonal migration tracking
+- Employer/NGO verification
+- Geofencing & dual address support
 
-We welcome contributions! To contribute:
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/amazing-feature`
-3. Commit changes: `git commit -m 'Add amazing feature'`
-4. Push to branch: `git push origin feature/amazing-feature`
-5. Open a Pull Request
-
-### Development Setup
-```bash
-# Install dev dependencies
-pip install -r backend/requirements-dev.txt
-npm install --save-dev
-
-# Run tests
-pytest backend/
-npm test
-
-# Format code
-black backend/
-prettier --write .
-```
+### PPAF - Privacy-Preserving Analytics Framework
+- Differential privacy (ε-δ budgets)
+- Federated query execution
+- Hamming distance identity matching
+- 5 user roles × 4 classification levels
 
 ---
 
-## 📄 License
+## 👥 Team
 
-This project is licensed under the MIT License - see [LICENSE](LICENSE) file for details.
-
----
-
-## 📞 Support & Feedback
-
-### Getting Help
-- 📧 **Email:** support@samvidhan.example.com
-- 🐛 **Issues:** [GitHub Issues](https://github.com/VK-10-9/SAMVIDHAN-UIDAI_3612/issues)
-- 💬 **Discussions:** [GitHub Discussions](https://github.com/VK-10-9/SAMVIDHAN-UIDAI_3612/discussions)
-- 📚 **Docs:** [Documentation Index](DOCUMENTATION_INDEX.md)
+| Name | Role |
+|------|------|
+| [Your Name] | Full Stack Developer |
 
 ---
 
-## 🏢 About
+## 📜 License
 
-**SAMVIDHAN UIDAI** is an initiative to leverage AI and data analytics for:
-- Smart governance
-- Efficient resource allocation
-- Citizen service delivery
-- Data-driven policy making
-- Transparent administration
-
----
-
----
-
-## 👥 Team & Contributors
-
-### Project Team
-- **[Vishwanath Koliwad](https://github.com/VK-10-9)** - Project Creator & Lead Developer
-  - LinkedIn: [Vishwanath Koliwad](https://www.linkedin.com/in/vishwanath-koliwad/)
-- **[Raheel Hosmani](https://github.com/Raheel-Techz-Life)** - Full Stack Developer & Technical Lead
-  - LinkedIn: [Raheel Hosmani](https://www.linkedin.com/in/raheel-hosmani-78ab92315/)
-- **[Bhumika Dalabhanjan](https://github.com/bhumika0115)** - Frontend Developer & UI/UX Specialist
-  - LinkedIn: [Bhumika Dalabhanjan](https://www.linkedin.com/in/bhumika-dalabhanjan-047bbb361/)
-- **[Disha Raikar](https://github.com/DishaRaikar15)** - Data Engineer & Backend Developer
-  - LinkedIn: [Disha Raikar](https://www.linkedin.com/in/disha-raikar-4b153335a/)
-
-**[View Full Contributors List](CONTRIBUTORS.md)**
+MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
 <div align="center">
 
-### 🌟 **Ready to Transform Government Analytics?** 🌟
+**Built with ❤️ for a Digital India**
 
-[📖 Start Here](GETTING_STARTED.md) · [📊 Dashboard](http://localhost:3000) · [📚 API Docs](http://localhost:8000/docs) · [💡 Learn More](DOCUMENTATION_INDEX.md)
-
-**Built with ❤️ for India's Digital Future**
+[📊 Dashboard](http://localhost:3000) · [📚 API Docs](http://localhost:8000/docs)
 
 </div>
-
----
-
-**Version:** 1.0.0 | **Status:** ✅ Production Ready | **Last Updated:** January 25, 2026
