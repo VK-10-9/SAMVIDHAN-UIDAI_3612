@@ -1,14 +1,43 @@
 # 📊 SAMVIDHAN UIDAI Dashboard - Complete Guide
 
+> **Master the SAMVIDHAN analytics platform with this comprehensive guide covering all dashboards, features, and capabilities**
+
+**Table of Contents:**
+- [Dashboard Overview](#dashboard-overview)
+- [Dashboard Sections](#dashboard-sections)
+- [Navigation Guide](#navigation-guide)
+- [Common Tasks](#common-tasks)
+- [Keyboard Shortcuts](#keyboard-shortcuts)
+- [Troubleshooting](#troubleshooting-dashboard)
+- [Support & Help](#support--help)
+
+---
+
 ## Dashboard Overview
 
 The SAMVIDHAN UIDAI Dashboard is a comprehensive analytics platform providing real-time insights into government data, citizen analytics, and policy implementation.
 
 **Access:** http://localhost:3000
 
----
+### Dashboard Statistics
+- **6 Interactive Dashboards** - Different views for different needs
+- **40+ Key Metrics** - Comprehensive analytics
+- **Real-time Updates** - 5-minute refresh cycle
+- **Advanced Filtering** - Multiple ways to slice data
+- **Multiple Export Formats** - CSV, Excel, JSON, PDF
+- **Mobile Responsive** - Full functionality on all devices
 
-## Dashboard Sections
+### Dashboard Sections
+
+**Quick Navigation:**
+1. 📋 [Overview Dashboard](#1--overview-dashboard-overview) - Executive summary
+2. 🔍 [Data Explorer](#2--data-explorer-data-explorer) - Browse and filter data
+3. 📊 [State Analytics](#3--state-analytics-state-analytics) - Compare state performance
+4. 🏛️ [Policy Dashboard](#4--policy-dashboard-policy) - Track policy implementation
+5. ⚠️ [Anomaly Detection](#5--anomaly-detection-anomalies) - Find data quality issues
+6. 🚗 [Mobility Tracking](#6--mobility-tracking-mobility) - Analyze population movement
+
+---
 
 ### 1. 📋 Overview Dashboard (`/overview`)
 

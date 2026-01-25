@@ -1,47 +1,94 @@
 # 📚 SAMVIDHAN UIDAI - Documentation Index
 
-Welcome! Here's your complete guide to understanding the SAMVIDHAN UIDAI platform.
+> **Your complete guide to understanding and using the SAMVIDHAN platform - Start here!**
+
+Welcome! This is your central hub for all SAMVIDHAN documentation. Find what you need based on your role and experience level.
 
 ---
 
-## 🎯 Quick Links
+## 🎯 Quick Navigation
 
-### For First-Time Users
+### 👤 I'm a...
+
+**First-Time User?**  
+→ Start with **[GETTING_STARTED.md](GETTING_STARTED.md)** (5 minutes)
+
+**Dashboard User?**  
+→ Read **[DASHBOARD_GUIDE.md](DASHBOARD_GUIDE.md)** (30 minutes)
+
+**Developer/API User?**  
+→ Check **[CODEBOOK.ipynb](CODEBOOK.ipynb)** + API docs at http://localhost:8000/docs
+
+**Technical Architect?**  
+→ Review **[Framework_Analysis.ipynb](Framework_Analysis.ipynb)** + **[README.md](README.md)**
+
+**Manager/Decision Maker?**  
+→ See **[README.md](README.md)** features section and dashboard overview
+
+---
+
+## 📖 Quick Links
+
+### For First-Time Users ✨
 1. **[GETTING_STARTED.md](GETTING_STARTED.md)** ← **START HERE!**
    - 5-minute quick start
    - Installation steps
    - First things to try
    - Basic troubleshooting
 
-### For Dashboard Users
+### For Dashboard Users 📊
 2. **[DASHBOARD_GUIDE.md](DASHBOARD_GUIDE.md)**
    - Complete dashboard walkthrough
    - All 6 dashboard sections
    - Features and capabilities
    - How to use each feature
    - Tips and tricks
+   - Keyboard shortcuts
 
-### For Developers
+### For Developers & API Users 💻
 3. **[CODEBOOK.ipynb](CODEBOOK.ipynb)**
    - API integration examples
    - Python code samples
    - Framework deep-dives
    - Advanced usage patterns
    - Complete endpoint reference
+   - Error handling
 
-### For Technical Details
-4. **[Framework_Analysis.ipynb](Framework_Analysis.ipynb)**
+4. **API Documentation**
+   - Live Docs: http://localhost:8000/docs
+   - Interactive API testing
+   - Request/response examples
+   - All endpoints listed
+
+### For Technical Deep-Dive 🏗️
+5. **[Framework_Analysis.ipynb](Framework_Analysis.ipynb)**
    - 6 Intelligence Frameworks explained
    - Technical architecture
    - Data models
    - Algorithm details
+   - Performance metrics
 
-5. **[README.md](README.md)**
+6. **[README.md](README.md)**
    - Project overview
    - Feature summary
    - Tech stack
    - Architecture diagram
    - Development setup
+
+### For Contributors 🤝
+7. **[CONTRIBUTORS.md](CONTRIBUTORS.md)**
+   - Team information
+   - How to contribute
+   - Development setup
+   - Code style guidelines
+   - Pull request process
+
+### For Evaluation 🎓
+8. **[FOR_JUDGES.md](FOR_JUDGES.md)**
+   - Quick evaluation path
+   - What to look for
+   - Key achievements
+   - Assessment metrics
 
 ---
 

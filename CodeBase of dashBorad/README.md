@@ -236,11 +236,24 @@ SAMVIDHAN implements privacy-by-design:
 
 ---
 
-## 👥 Team
+## 👥 Team - SAMVIDHAN Development Team
 
-| Name | Role |
-|------|------|
-| [Your Name] | Full Stack Developer |
+| Member | GitHub | LinkedIn | Role |
+|--------|--------|----------|------|
+| **Vishwanath Koliwad** | [@VK-10-9](https://github.com/VK-10-9) | [Profile](https://www.linkedin.com/in/vishwanath-koliwad/) | Lead Developer & Creator |
+| **Raheel Hosmani** | [@Raheel-Techz-Life](https://github.com/Raheel-Techz-Life) | [Profile](https://www.linkedin.com/in/raheel-hosmani-78ab92315/) | Full Stack Developer |
+| **Bhumika Dalabhanjan** | [@bhumika0115](https://github.com/bhumika0115) | [Profile](https://www.linkedin.com/in/bhumika-dalabhanjan-047bbb361/) | Frontend & UI/UX |
+| **Disha Raikar** | [@DishaRaikar15](https://github.com/DishaRaikar15) | [Profile](https://www.linkedin.com/in/disha-raikar-4b153335a/) | Data Engineer |
+
+---
+
+## 🎓 Contributing
+
+Interested in contributing? Check out [CONTRIBUTORS.md](CONTRIBUTORS.md) for guidelines on:
+- Code standards and style
+- Pull request process
+- Development setup
+- Testing requirements
 
 ---
 
@@ -250,10 +263,24 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
+## 📚 More Documentation
+
+- 🚀 [Getting Started Guide](GETTING_STARTED.md) - 5-minute quick start
+- 📊 [Dashboard Guide](DASHBOARD_GUIDE.md) - Complete feature walkthrough
+- 📖 [Documentation Index](DOCUMENTATION_INDEX.md) - All documentation
+- 👨‍💻 [Contributors](CONTRIBUTORS.md) - Team and contribution guidelines
+- 🎓 [For Judges](FOR_JUDGES.md) - Evaluation guide
+
+---
+
 <div align="center">
+
+**🛡️ SAMVIDHAN - Aadhaar Intelligence Platform**
 
 **Built with ❤️ for a Digital India**
 
-[📊 Dashboard](http://localhost:3000) · [📚 API Docs](http://localhost:8000/docs)
+[📊 Dashboard](http://localhost:3000) · [📚 API Docs](http://localhost:8000/docs) · [🔍 API Explorer](http://localhost:8000/redoc)
+
+**Enterprise-grade Security | Privacy-Preserving Analytics | 6 Intelligence Frameworks**
 
 </div>

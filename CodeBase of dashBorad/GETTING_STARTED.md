@@ -1,10 +1,27 @@
 # 🚀 SAMVIDHAN UIDAI - Getting Started Guide
 
-Welcome to SAMVIDHAN UIDAI! This guide will help you get up and running in 5 minutes.
+Welcome to **SAMVIDHAN UIDAI**! This comprehensive guide will have you up and running in just 5 minutes.
+
+> **What you'll build:** A fully functional government analytics platform with 6 AI frameworks, interactive dashboards, and 40+ API endpoints.
+
+**Table of Contents:**
+- [⚡ Quick Start (5 min)](#quick-start-5-minutes)
+- [🔧 Prerequisites](#prerequisites)
+- [📁 Project Structure](#project-structure)
+- [🎯 Core Features](#core-features-at-a-glance)
+- [🔗 API Reference](#api-quick-reference)
+- [💡 First Things to Try](#first-things-to-try)
+- [🐛 Troubleshooting](#troubleshooting)
+- [📚 Next Steps](#next-steps)
 
 ---
 
 ## ⚡ Quick Start (5 Minutes)
+
+### Prerequisites
+✅ **Node.js** 18+ installed  
+✅ **Python** 3.11+ installed  
+✅ **Git** installed
 
 ### Step 1: Clone Repository (1 min)
 ```bash
@@ -34,9 +51,55 @@ python main.py
 npm run dev
 ```
 
-### Step 4: Access
-- 🎨 Dashboard: http://localhost:3000
-- 📚 API: http://localhost:8000/docs
+### Step 4: Verify & Explore
+- 🎨 **Dashboard:** http://localhost:3000
+- 📚 **API Docs:** http://localhost:8000/docs
+- 🔍 **API Explorer:** http://localhost:8000/redoc
+
+---
+
+## 🔧 Prerequisites
+
+### System Requirements
+- **Operating System:** Windows, macOS, or Linux
+- **RAM:** Minimum 4GB (8GB recommended for smooth performance)
+- **Disk Space:** 500MB for project + 2GB for dependencies
+- **Internet:** Required for initial setup
+
+### Required Software
+1. **Node.js 18+**
+   ```bash
+   node --version  # Should show v18.0.0 or higher
+   ```
+
+2. **Python 3.11+**
+   ```bash
+   python --version  # Should show 3.11.0 or higher
+   ```
+
+3. **Git**
+   ```bash
+   git --version  # Should show version info
+   ```
+
+### Verify Installation
+```bash
+# Check Node.js
+node -v
+npm -v
+
+# Check Python
+python --version
+pip --version
+
+# Check Git
+git --version
+```
+
+If any are missing, download from:
+- Node.js: https://nodejs.org/
+- Python: https://python.org/
+- Git: https://git-scm.com/
 
 ---
 
