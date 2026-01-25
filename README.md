@@ -330,6 +330,22 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 ---
 
+---
+
+## 👥 Team & Contributors
+
+### Project Team
+- **[Raheel Hosmani](https://github.com/Raheel-Techz-Life)** - Full Stack Developer & Project Lead
+  - LinkedIn: [Raheel Hosmani](https://www.linkedin.com/in/raheel-hosmani-78ab92315/)
+- **[Bhumika Dalabhanjan](https://github.com/bhumika0115)** - Frontend Developer & UI/UX Specialist
+  - LinkedIn: [Bhumika Dalabhanjan](https://www.linkedin.com/in/bhumika-dalabhanjan-047bbb361/)
+- **[Disha Raikar](https://github.com/DishaRaikar15)** - Data Engineer & Backend Developer
+  - LinkedIn: [Disha Raikar](https://www.linkedin.com/in/disha-raikar-4b153335a/)
+
+**[View Full Contributors List](CONTRIBUTORS.md)**
+
+---
+
 <div align="center">
 
 ### 🌟 **Ready to Transform Government Analytics?** 🌟
