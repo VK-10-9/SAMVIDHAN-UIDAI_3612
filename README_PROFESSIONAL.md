@@ -359,6 +359,30 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 ---
 
+## 👥 Team
+
+### **Team Name:** SAMVIDHAN Development Team
+
+**Project Creator & Lead Developer:**
+- **Vishwanath Koliwad** (@VK-10-9)
+  - 🔗 [GitHub](https://github.com/VK-10-9)
+  - 🔗 [LinkedIn](https://www.linkedin.com/in/vishwanath-koliwad)
+
+**Core Contributors:**
+1. **Raheel Hosmani**
+   - 🔗 [GitHub](https://github.com/raheelhosmani)
+   - 🔗 [LinkedIn](https://www.linkedin.com/in/raheel-hosmani)
+
+2. **Bhumika Dalabhanjan**
+   - 🔗 [GitHub](https://github.com/bhumika-d)
+   - 🔗 [LinkedIn](https://www.linkedin.com/in/bhumika-dalabhanjan)
+
+3. **Disha Raikar**
+   - 🔗 [GitHub](https://github.com/disha-raikar)
+   - 🔗 [LinkedIn](https://www.linkedin.com/in/disha-raikar)
+
+---
+
 ## 🏢 About
 
 **SAMVIDHAN UIDAI** is an initiative to leverage AI and data analytics for:
