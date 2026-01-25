@@ -1,10 +1,24 @@
 # 🚀 SAMVIDHAN UIDAI - Getting Started Guide
 
-Welcome to SAMVIDHAN UIDAI! This guide will help you get up and running in 5 minutes.
+Welcome to **SAMVIDHAN UIDAI**! This comprehensive guide will have you up and running in just 5 minutes.
+
+> **What you'll build:** A fully functional government analytics platform with 6 AI frameworks, interactive dashboards, and 40+ API endpoints.
+
+**Table of Contents:**
+- [⚡ Quick Start (5 min)](#quick-start-5-minutes)
+- [📁 Project Structure](#project-structure)
+- [🔧 System Requirements](#system-requirements)
+- [🐛 Troubleshooting](#troubleshooting)
+- [📚 Next Steps](#next-steps)
 
 ---
 
 ## ⚡ Quick Start (5 Minutes)
+
+### Prerequisites
+✅ **Node.js** 18+ installed  
+✅ **Python** 3.11+ installed  
+✅ **Git** installed
 
 ### Step 1: Clone Repository (1 min)
 ```bash
@@ -14,10 +28,10 @@ cd SAMVIDHAN-UIDAI_3612
 
 ### Step 2: Install Dependencies (2 min)
 ```bash
-# Frontend
+# Frontend dependencies
 npm install
 
-# Backend (in new terminal)
+# Backend dependencies (in new terminal)
 cd backend
 pip install -r requirements.txt
 ```
@@ -27,16 +41,19 @@ pip install -r requirements.txt
 ```bash
 cd backend
 python main.py
+# ✅ API running at http://localhost:8000
 ```
 
 **Terminal 2 - Frontend:**
 ```bash
 npm run dev
+# ✅ Dashboard at http://localhost:3000
 ```
 
-### Step 4: Access
-- 🎨 Dashboard: http://localhost:3000
-- 📚 API: http://localhost:8000/docs
+### Step 4: Verify & Explore
+- 🎨 **Dashboard:** http://localhost:3000
+- 📚 **API Docs:** http://localhost:8000/docs
+- 🔍 **API Explorer:** http://localhost:8000/redoc
 
 ---
 
@@ -44,10 +61,17 @@ npm run dev
 
 ```
 SAMVIDHAN-UIDAI_3612/
-├── README.md                  ← Project overview
-├── DASHBOARD_GUIDE.md         ← Dashboard features (YOU ARE HERE)
-├── CODEBOOK.ipynb             ← Code examples & API guide
-│
+├── 📖 README.md                      # Project overview
+├── 📖 README_PROFESSIONAL.md         # Enterprise version
+├── 🚀 GETTING_STARTED.md             # This file
+├── 📊 CodeBase of dashBorad/
+│   ├── app/                          # Next.js frontend pages
+│   ├── backend/                      # FastAPI server
+│   ├── components/                   # React components
+│   ├── dataset/                      # Sample datasets
+│   └── 📚 DOCUMENTATION_INDEX.md     # All docs directory
+└── 📚 Full docs in CodeBase folder
+```
 ├── app/                       ← Frontend (Next.js)
 │   ├── page.tsx              ← Home page
 │   ├── overview/             ← Overview dashboard
