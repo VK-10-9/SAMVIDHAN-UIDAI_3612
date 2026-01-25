@@ -375,23 +375,10 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 Team Name: Vidyut
 
-Project Creator & Lead Developer:
-- Vishwanath Koliwad (@VK-10-9)
-  - GitHub: https://github.com/VK-10-9
-  - LinkedIn: https://www.linkedin.com/in/vishwanath-koliwad/
-
-Core Contributors:
-- Raheel Hosmani
-  - GitHub: https://github.com/Raheel-Techz-Life
-  - LinkedIn: https://www.linkedin.com/in/raheel-hosmani-78ab92315/
-
-- Bhumika Dalabhanjan
-  - GitHub: https://github.com/bhumika0115
-  - LinkedIn: https://www.linkedin.com/in/bhumika-dalabhanjan-047bbb361/
-
-- Disha Raikar
-  - GitHub: https://github.com/DishaRaikar15
-  - LinkedIn: https://www.linkedin.com/in/disha-raikar-4b153335a/
+- Vishwanath Koliwad - GitHub: https://github.com/VK-10-9 | LinkedIn: https://www.linkedin.com/in/vishwanath-koliwad/
+- Raheel Hosmani - GitHub: https://github.com/Raheel-Techz-Life | LinkedIn: https://www.linkedin.com/in/raheel-hosmani-78ab92315/
+- Bhumika Dalabhanjan - GitHub: https://github.com/bhumika0115 | LinkedIn: https://www.linkedin.com/in/bhumika-dalabhanjan-047bbb361/
+- Disha Raikar - GitHub: https://github.com/DishaRaikar15 | LinkedIn: https://www.linkedin.com/in/disha-raikar-4b153335a/
 
 ---
 
