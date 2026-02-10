@@ -240,6 +240,28 @@ SAMVIDHAN implements privacy-by-design:
 
 ---
 
+## 📝 Adding to Your Resume
+
+Want to showcase this project on your resume, LinkedIn, or portfolio? We've got you covered!
+
+### Quick Start (5 minutes)
+📋 **[RESUME_QUICK_REFERENCE.md](RESUME_QUICK_REFERENCE.md)** - Copy-paste bullet points, key metrics, and elevator pitch
+
+### Comprehensive Guide (30 minutes)
+📖 **[RESUME_HELPER.md](RESUME_HELPER.md)** - Complete templates for resume, LinkedIn, portfolio, and interviews
+
+### Step-by-Step Instructions
+🎓 **[HOW_TO_ADD_TO_RESUME.md](HOW_TO_ADD_TO_RESUME.md)** - Detailed guide with best practices and examples
+
+**Highlights to mention**:
+- 🚀 Processes **1.4B+ records** with **<500ms** response times
+- 💻 **40+ REST APIs** and **6 interactive dashboards**
+- 🤖 **6 AI frameworks** including differential privacy
+- 📚 **15,000+ words** of professional documentation
+- ✅ Production-ready full-stack application
+
+---
+
 ## Team
 
 Team Name: Vidyut
@@ -261,7 +283,7 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ## 🌟 **Transform Government Analytics Today** 🌟
 
-**[📊 Dashboard](http://localhost:3000)** · **[📚 API Docs](http://localhost:8000/docs)** · **[📖 Getting Started](GETTING_STARTED.md)** · **[💡 Full Docs](CodeBase of dashBorad/DOCUMENTATION_INDEX.md)**
+**[📊 Dashboard](http://localhost:3000)** · **[📚 API Docs](http://localhost:8000/docs)** · **[📖 Getting Started](GETTING_STARTED.md)** · **[💡 Full Docs](CodeBase of dashBorad/DOCUMENTATION_INDEX.md)** · **[📝 Add to Resume](HOW_TO_ADD_TO_RESUME.md)**
 
 ---
 
